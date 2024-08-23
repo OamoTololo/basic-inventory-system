@@ -1,0 +1,89 @@
+/* start of container */
+.loginBody, .registerBody {
+    background: url("../images/login-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: Arial, serif;
+}
+.loginHeader {
+    text-align: center;
+}
+.loginHeader h1 {
+    font-size: 60px;
+    padding: 0;
+    font-style: italic;
+}
+.loginHeader p {
+    font-size: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    font-style: italic;
+}
+.loginHeader p:after {
+    content: '';
+    display: block;
+    height: 5px;
+    background: sandybrown;
+    margin: 0 auto;
+}
+.loginText {
+    font-style: italic;
+}
+
+.loginBody form{
+    margin: 0 auto;
+    width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    border: 2px solid maroon;
+    border-radius: 90px;
+}
+
+.loginBody h4 {
+    font-size: 40px;
+    padding: 0;
+}
+
+.loginBody input {
+    text-transform: uppercase;
+    height: 45px;
+    width: 100%;
+    border: 2px solid maroon;
+    font-size: 20px;
+    padding: 5px;
+}
+.loginButton button {
+    font-size: 20px;
+    padding: 8px 18px;
+    border-radius: 10px;
+    border: none;
+    color: sandybrown;
+}
+
+/* colors */
+.maroon {
+    color: maroon;
+}
+.brown {
+    color: sandybrown;
+}
+.black {
+    color: black;
+}
+.btn-brown {
+    background-color: sandybrown;
+}
+.btn-maroon {
+    background-color: maroon;
+}
+
+/* end of container*/
+
+/* start of index page */
+
+/* end of index page */
+
+/* start of navbar */
+    /* start of login-user*/
+
+    /* end of login-user*/
+/* end of navbar*/
