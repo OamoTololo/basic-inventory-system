@@ -40,3 +40,42 @@ include 'inc/top.php';
         </div>
     </div>
 </div>
+<div class="homepageNotified">
+    <div class="homepageContainer">
+        <div class="homepageNotifiedContainer">
+            <div class="emailForm">
+                <h3>Get notified on any updates.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque esse excepturi incidunt modi molestiae quas, sit! Culpa optio quibusdam totam.</p>
+                <form action="">
+                    <div class="formContainer">
+                        <input type="text" class="" placeholder="Email Address">
+                        <button class="btn btn-brown">Notify</button>
+                    </div>
+                </form>
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/48VkVOHYGWw" width="400px" height="200px"
+                        frameborder="0"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="socials">
+    <div class="homepageContainer">
+        <h3 class="socialsHeader">Get in touch...Let's connect</h3>
+        <p class="socialText">Hit Me up on any of my socials below, so we can talk about code, development and anything...</p>
+        <div class="socialsContainer">
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-github"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a href=""><i class="fa-solid fa-envelope"></i></a>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="homepageContainer">
+
+    </div>
+</div>
