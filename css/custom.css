@@ -141,7 +141,7 @@ input, button, textarea, select {
 .homepageContainer {
     width: 100%;
     max-width: 900px;
-    height: 70vh;
+    /*height: 55vh;*/
     margin: 0 auto;
 }
 .bannerHeader h1 {
@@ -164,7 +164,7 @@ input, button, textarea, select {
 }
 
 .bannerIcons {
-    margin-top: 50px;
+    margin-top: 190px;
 }
 .bannerIcons a {
     font-size: 25px;
@@ -189,6 +189,35 @@ input, button, textarea, select {
 .indexBody {
     font-family: Arial, sans-serif;
 }
+.homepageFeatures {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+}
+.homepageFeature {
+    padding: 10px 20px;
+    text-align: center;
+}
+.homepageFeature .featureIcon {
+    height: 80px;
+    width: 80px;
+    display: inline-block;
+    border-radius: 50%;
+    font-size: 55px;
+    background: sandybrown;
+    color: white;
+    margin-bottom: 20px;
+}
+.homepageFeature .featureTitle {
+    margin-bottom: 20px;
+}
+.homepageFeature .featureDescription {
+    color: black;
+}
+
+
+
+
 /* colors */
 .maroon {
     color: maroon;
