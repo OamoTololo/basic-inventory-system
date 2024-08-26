@@ -1,26 +1,22 @@
 <?php
-    include 'inc/top.php';
+include 'inc/top.php';
 ?>
-<body class="loginBody">
 
-<div class="container">
-    <div class="loginHeader p-0 mb-5">
-        <h1 class="brown font-weight-bold">IMS</h1>
-        <p class="brown font-weight-bold">Inventory Management System</p>
-    </div>
-    <div class="loginBody">
-        <form action="" class="">
-            <h4 class="loginText text-center text-white mb-3 font-weight-bold">Login</h4>
-            <div class="mb-2 mt-3">
-                <input type="text" name="username" id="username" required placeholder="Username" class="form-control text-center mt-3 brown">
-            </div>
-            <div class="mt-3">
-                <input type="password" name="password" id="password" required placeholder="Password" class="form-control text-center">
-            </div>
-            <div class="loginButton mt-4 align-content-center">
-                <button class="btn btn-maroon text-white btn-lg col-12">Login</button>
-            </div>
-        </form>
+<body class="indexBody">
+
+<div class="homepageBanner">
+    <div class="homepageContainer">
+        <div class="bannerHeader">
+            <h1 class="maroon font-weight-bold">IMS</h1>
+            <h4 class="font-weight-bold">Inventory Management System</h4>
+        </div>
+        <p class="bannerTagline font-weight-bold">Track your goods throughout your entire supply chain, from
+            purchasing to
+            production to end sales .</p>
+        <div class="bannerIcons">
+            <a href=""><i class="fa-brands fa-apple"></i></a>
+            <a href=""><i class="fa-brands fa-android"></i></a>
+            <a href=""><i class="fa-brands fa-windows"></i></a>
+        </div>
     </div>
 </div>
-

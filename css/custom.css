@@ -1,23 +1,81 @@
-/* start of container */
-.loginBody, .registerBody {
-    background: url("../images/login-background.jpg") no-repeat center center fixed;
-    background-size: cover;
-    font-family: Arial, serif;
+/* Box sizing rules */
+*, *::before, *::after {
+    box-sizing: border-box;
 }
+
+/* Remove default padding */
+ul[class], ol[class] {
+    padding: 0;
+}
+
+/* Remove default margin */
+h1, h2, h3, h4, p, ul[class], ol[class], li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a class attribute */
+ul[class], ol[class] {
+    list-style: none;
+}
+
+/* a elements that don't have a class get a default style */
+a:not([class]) {
+    text-decoration-skip-ink: auto;
+}
+
+/* Making images easier to work with */
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Natural flow and rhythm in articles by default */
+article > * + * {
+    margin-top: 1em;
+}
+
+/* Inherit fonts for inputs and buttons */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* Removing all animations and transitions */
+@media {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+}
+
+/* */
+
+/**/
+/**/
+
+/**/
+/**/
+
+/**/
+
+
+/* Login and Register pages */
 .loginHeader {
     text-align: center;
 }
+
 .loginHeader h1 {
     font-size: 60px;
     padding: 0;
     font-style: italic;
 }
+
 .loginHeader p {
     font-size: 50px;
     display: inline-block;
     text-transform: uppercase;
     font-style: italic;
 }
+
 .loginHeader p:after {
     content: '';
     display: block;
@@ -25,6 +83,7 @@
     background: sandybrown;
     margin: 0 auto;
 }
+
 .loginText {
     font-style: italic;
 }
@@ -51,6 +110,12 @@
     font-size: 20px;
     padding: 5px;
 }
+
+.loginBody, .registerBody {
+    background: url("../images/login-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+
 .loginButton button {
     font-size: 20px;
     padding: 8px 18px;
@@ -59,6 +124,71 @@
     color: sandybrown;
 }
 
+/* Home page */
+
+/*.homepageHeader {*/
+/*    width: 100%;*/
+/*    height: 20px;*/
+/*    background: sandybrown;*/
+/*}*/
+.homepageBanner {
+    background: url("../images/homepagebanner.jpg") no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.homepageContainer {
+    width: 100%;
+    max-width: 900px;
+    height: 70vh;
+    margin: 0 auto;
+}
+.bannerHeader h1 {
+    font-size: 100px;
+    color: black;
+    font-style: italic;
+    line-height: 100%;
+}
+.bannerHeader h4 {
+    font-size: 40px;
+    color: black;
+    text-transform: uppercase;
+    font-style: italic;
+    line-height: 100%;
+}
+.bannerTagline {
+    margin-top: 40px;
+    font-size: 20px;
+    color: white;
+}
+
+.bannerIcons {
+    margin-top: 50px;
+}
+.bannerIcons a {
+    font-size: 25px;
+    margin-left: 40px;
+    padding: 7px 15px;
+    background: rgba(0,0,0, 0.5);
+    color: white;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: inline-block;
+}
+.bannerIcons a:first-child {
+    margin-left: 0;
+}
+.bannerIcons a:hover {
+    color: sandybrown;
+    background: teal;
+    font-size: 25px;
+    transition: .5s all;
+}
+.indexBody {
+    font-family: Arial, sans-serif;
+}
 /* colors */
 .maroon {
     color: maroon;
@@ -76,7 +206,6 @@
     background-color: maroon;
 }
 
-/* end of container*/
 
 /* start of index page */
 
