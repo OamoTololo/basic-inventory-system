@@ -3,7 +3,9 @@ include 'inc/top.php';
 ?>
 
 <body class="indexBody">
-
+<?php
+include 'inc/navbar.php';
+?>
 <div class="homepageBanner">
     <div class="homepageContainer">
         <div class="bannerHeader">
@@ -63,7 +65,7 @@ include 'inc/top.php';
 <div class="socials">
     <div class="homepageContainer">
         <h3 class="socialsHeader">Get in touch...Let's connect</h3>
-        <p class="socialText">Hit Me up on any of my socials below, so we can talk about code, development and anything...</p>
+        <p class="socialText">Follow and DM me on my socials below, so we can talk about code, development and anything...</p>
         <div class="socialsContainer">
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href=""><i class="fa-brands fa-facebook"></i></a>
@@ -74,8 +76,6 @@ include 'inc/top.php';
         </div>
     </div>
 </div>
-<div class="footer">
-    <div class="homepageContainer">
-
-    </div>
-</div>
+<?php
+include 'inc/footer.php';
+?>

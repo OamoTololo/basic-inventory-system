@@ -94,7 +94,7 @@ input, button, textarea, select {
     background: rgba(0, 0, 0, 0.4);
     padding: 50px;
     border: 2px solid maroon;
-    border-radius: 90px;
+    border-radius: 20px;
 }
 
 .loginBody h4 {
@@ -136,6 +136,7 @@ input, button, textarea, select {
     background-size: cover;
     padding-top: 100px;
     padding-bottom: 100px;
+    height: 100vh;
 }
 
 .homepageContainer {
@@ -143,6 +144,10 @@ input, button, textarea, select {
     max-width: 1000px;
     /*height: 55vh;*/
     margin: 0 auto;
+}
+.homepageHeader {
+    width: 100%;
+    background: sandybrown;
 }
 .bannerHeader h1 {
     font-size: 100px;
@@ -188,15 +193,25 @@ input, button, textarea, select {
 }
 .indexBody {
     font-family: Arial, sans-serif;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .homepageFeatures {
     display: flex;
     flex-direction: row;
-    padding: 20px;
+    padding: 50px;
 }
 .homepageFeature {
     padding: 10px 20px;
     text-align: center;
+    width: 33.33%;
+}
+.homepageFeature:hover {
+    border-top: 2px solid sandybrown;
+    border-bottom: 2px solid sandybrown;
+    transition: 0.5s all;
 }
 .homepageFeature .featureIcon {
     height: 80px;
@@ -210,14 +225,16 @@ input, button, textarea, select {
 }
 .homepageFeature .featureTitle {
     margin-bottom: 20px;
+    font-size: 23px;
 }
 .homepageFeature .featureDescription {
     color: black;
+    font-size: 18px;
 }
 
 .homepageNotified {
     background: #e3e3e3;
-    padding: 50px 0;
+    padding: 80px 0;
 }
 .homepageNotifiedContainer {
     display: flex;
@@ -225,6 +242,9 @@ input, button, textarea, select {
 }
 .emailForm {
     width: 40%;
+}
+.emailForm h3 {
+    font-size: 23px;
 }
 .video {
     width: 50%;
@@ -235,7 +255,7 @@ input, button, textarea, select {
 }
 .homepageNotified p {
     color: black;
-    line-height: 150%;
+    line-height: 200%;
     margin-bottom: 30px;
 }
 .formContainer {
@@ -270,12 +290,16 @@ iframe {
 }
 .socials {
     text-align: center;
-    padding: 60px 0 30px 0;
+    padding: 70px 0 40px 0;
+}
+.socialsHeader {
+    font-size: 30px;
 }
 .socialText {
     margin-top: 15px;
     margin-bottom: 25px;
     color: grey;
+    font-size: 20px;
 }
 .socialsContainer a {
     font-size: 23px;
@@ -292,8 +316,30 @@ iframe {
 .socialsContainer a:hover {
     background: sandybrown;
     color: teal;
+    transition: 0.3s all;
+}
+.footer {
+    background: #e3e3e3;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.footer a {
+    color: grey;
+    margin-left: 30px;
+    text-decoration: none;
+}
+.footer a:hover {
+    font-weight: bold;
+    color: sandybrown;
+    transition: 0.5s;
 }
 
+/* Navbar */
+.navBody {
+    background-position: center;
+    background-size: cover;
+}
 
 /* colors */
 .maroon {
